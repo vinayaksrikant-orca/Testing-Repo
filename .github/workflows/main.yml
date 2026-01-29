@@ -18,7 +18,7 @@ jobs:
       contents: read
       actions: read
     env:
-      PROJECT_KEY: srikantvinayak-Orca-Testing # Set the desired project to run the cli scanning with
+      PROJECT_KEY: vinayaksrikant-orca-Testing-Repo # Set the desired project to run the cli scanning with
     steps:
       # Checkout your repository under $GITHUB_WORKSPACE, so your job can access it
       - name: Checkout Repository
